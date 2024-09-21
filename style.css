@@ -75,12 +75,11 @@ html {
 width:100%;
 background-repeat: no-repeat;
 height:auto;
-background-attached:fixed;
  }
  .card {
   background-color:rgb(135, 193, 226);
  }
- .riven-uncial{
+ .rieven-uncial{
   font-family: "rieven-uncial", sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -105,3 +104,41 @@ div.second:hover{
 div.ok{
   padding:350px;
 }
+.container{
+  position:relative;
+  width:100%;
+  height:220px;
+  display:inline-block;
+}
+.container:hover .overlay{
+  opacity:0.8;
+  height:150px;
+  width:150px;
+}
+.center{
+  display:block;
+  width:250px;
+  height:auto;
+}
+div.overlay{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    opacity:0;
+    transition: .5s ease;
+    background-color:yellow;
+  }
+  .text{
+    color:black;
+  font-size:20px;
+  font-weight: bold;
+  position:absolute;
+  top:50%;
+  left:50%;
+transform: translate(-50%, -50%);
+  text-align:center;
+  }
