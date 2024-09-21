@@ -70,7 +70,7 @@ html {
     font-style: normal; 
   }
  body{
-  background-image:url(imgs/item.jpg);
+  background-image:url(imgs/final\ logo.jpg);
    background-size: cover;
 width:100%;
 background-repeat: no-repeat;
@@ -103,5 +103,5 @@ div.second:hover{
   opacity:0.9;
 }
 div.ok{
-  padding:600px;
+  padding:350px;
 }
