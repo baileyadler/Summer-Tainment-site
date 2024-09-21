@@ -112,12 +112,12 @@ div.ok{
 }
 .container:hover .overlay{
   opacity:0.8;
-  height:150px;
-  width:150px;
+  height:300px;
+  width:300px;
 }
 .center{
   display:block;
-  width:250px;
+  width:280px;
   height:auto;
 }
 div.overlay{
@@ -130,7 +130,7 @@ div.overlay{
     width:100%;
     opacity:0;
     transition: .5s ease;
-    background-color:yellow;
+    background-color:rgb(168, 168, 233);
   }
   .text{
     color:black;
