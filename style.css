@@ -96,7 +96,7 @@ div.ok{
 }
 
 .position-relative {
-  position: relative; /* Ensure the parent is positioned */
+  position: relative; 
 }
 
 img.center {
@@ -108,18 +108,18 @@ div.br{
 }
 
 .overlay {
-  position: absolute; /* Position overlay over image */
+  position: absolute; 
   top: 0;
   left: 0;
-  height: 100%; /* Match the height of the image */
-  width: 100%; /* Match the width of the image */
-  opacity: 0; /* Start invisible */
-  transition: opacity 0.5s ease; /* Smooth transition */
-  background-color: rgba(135, 193, 226, 0.8); /* Semi-transparent background */
+  height: 100%; 
+  width: 100%; 
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+  background-color: rgba(135, 193, 226, 0.8); 
 }
 
 .col-md-3:hover .overlay {
-  opacity: 1; /* Show overlay on hover */
+  opacity: 1; 
 }
 
 .text {
@@ -129,7 +129,7 @@ div.br{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Center the text */
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
