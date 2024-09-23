@@ -128,7 +128,6 @@ div.br{
 .col-md-3:hover .overlay {
   opacity: 1; 
 }
-
 .text {
   color: black;
   font-size: 18px;
@@ -140,7 +139,6 @@ div.br{
   text-align: center;
 }
 
- 
 div.back{
   background-color:#c5deee;
   padding:100px;
