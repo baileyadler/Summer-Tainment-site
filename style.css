@@ -41,7 +41,7 @@ html {
     padding:20px;
   }
  
-  img{
+  .nav-img{
     width:90px;
   }
   .nav-link{
@@ -103,44 +103,42 @@ div.second:hover{
 div.ok{
   padding:50px;
 }
-.container{
-  position:relative;
-  width:100%;
-  height:220px;
-  display:inline-block;
+
+.position-relative {
+  position: relative; /* Ensure the parent is positioned */
 }
-.container-fluid:hover .overlay{
-  opacity:0.8;
-  height:320px;
-  width:320px;
+
+img.center {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
 }
-.center{
-  display:block;
-  width:300px;
-  height:300px;
+
+.overlay {
+  position: absolute; /* Position overlay over image */
+  top: 0;
+  left: 0;
+  height: 100%; /* Match the height of the image */
+  width: 100%; /* Match the width of the image */
+  opacity: 0; /* Start invisible */
+  transition: opacity 0.5s ease; /* Smooth transition */
+  background-color: rgba(135, 193, 226, 0.8); /* Semi-transparent background */
 }
-div.overlay{
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    height:100%;
-    width:100%;
-    opacity:0;
-    transition: .5s ease;
-    background-color: rgb(135, 193, 226);
-  }
-  .text{
-    color:black;
-  font-size:20px;
+
+.col-md-3:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.text {
+  color: black;
+  font-size: 20px;
   font-weight: bold;
-  position:absolute;
-  top:50%;
-  left:50%;
-transform: translate(-50%, -50%);
-  text-align:center;
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text */
+  text-align: center;
+}
+
   div.carousel{
     padding:100px;
   }
@@ -189,3 +187,4 @@ div.change:hover{
 div.containers{
   background-color: rgb(135, 193, 226);
 }
+
