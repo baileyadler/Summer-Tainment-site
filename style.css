@@ -43,11 +43,7 @@ html {
     width:1000px;
     padding:20px;
   }
-  #carouselExampleFade{
-    width:50%;
-    height:50%;
-    margin:0 auto;
-  }
+ 
   img{
     width:90px;
   }
@@ -86,7 +82,8 @@ font-style: normal;
  }
  h1{
   text-align: center;
-  font-size:80px;
+  font-size:70px;
+  padding:10px;
  }
  h2{
   text-align: center;
@@ -168,7 +165,7 @@ ul{
 }
 div.again{
   background-color: #c5deee;
-  padding:90px;
+  padding:80px;
 }
 div.hole{
   background-color: white;
@@ -179,4 +176,16 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 width:400px;
+}
+.card-img-top{
+  width:200px;
+}
+.card-img-tops{
+  width:400px;
+}
+div.change{
+  background-color:white;
+}
+div.change:hover{
+  background-color:#c7f8fa;
 }
