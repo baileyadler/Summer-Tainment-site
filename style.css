@@ -64,13 +64,13 @@ html {
   }
   .card-title{
     color:black;
-    font-size:30px;
+    font-size:40px;
     font-family: "gelica", sans-serif;
     font-weight: 400;
     font-style: normal; 
   }
  body{
-  background-image:url(imgs/final\ logo.jpg);
+  background-image:url(imgs/plainn.jpg);
    background-size: cover;
 width:100%;
 background-repeat: no-repeat;
@@ -91,6 +91,7 @@ font-style: normal;
  h2{
   text-align: center;
   font-size:70px;
+  padding:10px;
  }
  div.second{
   background-color: #78aac9;
@@ -106,7 +107,7 @@ div.second:hover{
   opacity:0.9;
 }
 div.ok{
-  padding:350px;
+  padding:50px;
 }
 .container{
   position:relative;
@@ -149,28 +150,6 @@ transform: translate(-50%, -50%);
   div.carousel{
     padding:100px;
   }
-
-  .hover-underline-animation{
-    display:inline-block;
-    position:relative;
-    color: #010304;  
-  }
-  .hover-underline-animation::after{
-    content: '';
-    position: absolute;
-    transform: scaleX(0);
-    left:0;
-    width:100%;
-    height:2px;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-  color:black;
-  }
-  .hover-underline-animation:hover::after{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-    color:black;
-  }
 div.back{
   background-color:#c5deee;
   padding:100px;
@@ -185,4 +164,19 @@ li{
 }
 ul{
   list-style-position: inside;
+  text-align:center;
+}
+div.again{
+  background-color: #c5deee;
+  padding:90px;
+}
+div.hole{
+  background-color: white;
+  padding:40px;
+}
+.newlogo{
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:400px;
 }
