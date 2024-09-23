@@ -91,6 +91,7 @@ font-style: normal;
   text-align: center;
   font-size:30px;
  }
+
  h2{
   text-align: center;
   font-size:70px;
@@ -174,7 +175,8 @@ width:400px;
   width:200px;
 }
 .card-img-tops{
-  width:400px;
+  width:550px;
+  height:350px;
 }
 div.change{
   background-color:white;
