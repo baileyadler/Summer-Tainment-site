@@ -17,9 +17,6 @@ html {
     padding:8px;
     text-align: center;
   }
-  .container-fluid{
-    background-color: rgb(135, 193, 226);
-  }
   a{
     position:relative;
     text-decoration:none;
@@ -112,7 +109,7 @@ div.ok{
   height:220px;
   display:inline-block;
 }
-.container:hover .overlay{
+.container-fluid:hover .overlay{
   opacity:0.8;
   height:320px;
   width:320px;
@@ -188,4 +185,7 @@ div.change{
 }
 div.change:hover{
   background-color:#c7f8fa;
+}
+div.containers{
+  background-color: rgb(135, 193, 226);
 }
