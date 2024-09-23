@@ -46,7 +46,6 @@ html {
   }
   .nav-link{
     color:black;
-
   }
   .card-text{
     color:black;
@@ -82,24 +81,16 @@ font-style: normal;
   font-size:70px;
   padding:10px;
  }
+ p{
+  text-align: center;
+  font-size:30px;
+ }
  h2{
   text-align: center;
   font-size:70px;
   padding:10px;
  }
- div.second{
-  background-color: #78aac9;
-  width:600px;
-  height:300px;
-  border-radius: 30px;
-  margin-top: 40px;
-  margin-left:100px;
 
-}
-div.second:hover{
-  background-color: #c091ac;
-  opacity:0.9;
-}
 div.ok{
   padding:50px;
 }
@@ -109,8 +100,11 @@ div.ok{
 }
 
 img.center {
-  width: 100%; /* Make images responsive */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%; 
+  height: 80%;
+}
+div.br{
+  padding:50px;
 }
 
 .overlay {
@@ -139,9 +133,7 @@ img.center {
   text-align: center;
 }
 
-  div.carousel{
-    padding:100px;
-  }
+ 
 div.back{
   background-color:#c5deee;
   padding:100px;
@@ -187,4 +179,7 @@ div.change:hover{
 div.containers{
   background-color: rgb(135, 193, 226);
 }
-
+img.cover{
+  width:200px;
+  margin-top:300px;
+}
