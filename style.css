@@ -16,7 +16,7 @@
     font-size: 30px;
     padding:8px;
     text-align: center;
-   }
+  
    a{
     position:relative;
     text-decoration:none;
@@ -61,6 +61,7 @@
     font-weight: 400;
     font-style: normal; 
    }
+   /* background for home page */
    body{
    background-image:url(imgs/plainn.jpg);
    background-size: cover;
@@ -103,6 +104,7 @@
    div.br{
    padding:50px;
    }
+   /* overlay for images for events */
    .overlay {
    position: absolute; 
    top: 0;
@@ -135,6 +137,7 @@
    padding:40px;
    margin: auto;
    }
+   /* lists */
    li{
    text-align:center;
    font-size:30px;
